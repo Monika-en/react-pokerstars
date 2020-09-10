@@ -7,7 +7,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hidden {
+  display: none;
+}
+
+.box {
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 300px;
+}
+#submitForm {
+  background-color:#dbe823;
+  border: 2px solid green;
+}
+
+#temperatureResult {
+  background-color:#0fefbd;
+  border: 2px solid green;
 }
